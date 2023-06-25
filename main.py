@@ -1,5 +1,5 @@
-from check import *
-from main_display import *
+from views.support.check import *
+from views.main_display import *
 
-check_sqlite()
+check_sqlite_exist()
 MainWindow()
